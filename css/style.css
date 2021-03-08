@@ -62,7 +62,7 @@ nav {
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
-    color: var(--black4);
+    color: var(--black);
   }
   .nav-link {
     display: flex;
@@ -154,3 +154,72 @@ nav {
   }
   
   /* Navbar ended */
+   /* Main page styling  */
+
+  
+   main img
+   {
+    margin-top: 10vh;
+    width: 100%;
+    height: 100%;
+   }
+ 
+   main .main_content
+   {
+    
+     margin: -510px 450px 0px; 
+
+   }
+   main .main_header
+   {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 0px auto;
+    color: var(--black2);
+   }
+   main .main_slogan
+   {
+    font-size: 30px;
+    color: var(--grey2);
+
+   }
+   @media screen and (max-width: 768px)
+   {
+    main .main_content
+    {
+     
+      margin: -310px 300px 0px; 
+ 
+    }
+    main .main_header
+    {
+     font-size: 25px;
+
+     }
+    main .main_slogan
+    {
+     font-size: 16px;
+   
+ 
+    }
+   }
+   @media screen and (max-width: 468px)
+   {
+    main .main_content
+    {
+     
+      margin: -180px 80px 0px; 
+ 
+    }
+    main .main_header
+    {
+     font-size: 25px;
+
+     }
+    main .main_slogan
+    {
+     font-size: 16px;
+   
+ 
+    }
+   }
