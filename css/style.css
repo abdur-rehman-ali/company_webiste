@@ -223,3 +223,24 @@ nav {
  
     }
    }
+   @media screen and (max-width: 400px)
+   {
+    main .main_content
+    {
+     
+      position: fixed;
+      margin: -140px 100px 0px; 
+ 
+    }
+    main .main_header
+    {
+     font-size: 16px;
+
+     }
+    main .main_slogan
+    {
+     font-size: 12px;
+   
+ 
+    }
+   }
