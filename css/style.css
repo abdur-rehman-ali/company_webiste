@@ -198,7 +198,6 @@ main .main_slogan {
 }
 @media screen and (max-width: 400px) {
   main .main_content {
-    position: fixed;
     margin: -140px 100px 0px;
   }
   main .main_header {
@@ -227,9 +226,9 @@ main .main_slogan {
   letter-spacing: 1px;
 }
 
-.latest_border {
+/* .latest_border {
   border: 1px solid black;
-}
+} */
 .latest_product {
   width: 85%;
   margin-top: 100px;
@@ -255,7 +254,6 @@ main .main_slogan {
   text-transform: uppercase;
   font-size: 14px;
   text-align: center;
-  
 }
 .product .product_cart_btn button {
   margin-top: 5px;
@@ -268,34 +266,30 @@ main .main_slogan {
   color: white;
 }
 
-@media screen and (max-width: 768px) 
-{
+@media screen and (max-width: 768px) {
   .latest_product {
     width: 90%;
   }
 }
-@media screen and (max-width: 600px)
-{
-  .latest_product {
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 438px) {
-  .product img {
-    width: 100px;
-  }
+@media screen and (max-width: 600px) {
   .latest_product {
     width: 90%;
   }
   .product {
-    width: 45%;
+    max-width: 45%;
+  }
+}
 
+@media screen and (max-width: 438px) {
+  .latest_product {
+    width: 90%;
+  }
+  .product {
+    max-width: 100%;
     min-height: 200px;
   }
   .product_bar {
-    margin-top: 50px;
-
+    margin-top: 300px;
     width: 90%;
     margin-bottom: -50px;
   }
