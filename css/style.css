@@ -282,15 +282,19 @@ main .main_slogan {
 
 @media screen and (max-width: 438px) {
   .latest_product {
-    width: 90%;
+    width: 100%;
+  }
+  .margin-left {
+    margin-left: 50px;
   }
   .product {
     max-width: 100%;
     min-height: 200px;
+    margin-right: 100px;
   }
   .product_bar {
     margin-top: 300px;
-    width: 90%;
+    width: 75%;
     margin-bottom: -50px;
   }
 }
