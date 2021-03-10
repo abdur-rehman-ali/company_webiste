@@ -13,6 +13,7 @@ a {
 }
 body {
   font-family: sans-serif;
+
 }
 :root {
   --primaryColor: #f1f1f1;
@@ -51,13 +52,14 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  height: 10vh;
+  height: 15vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background-color: white;
   box-shadow: 0.1px 0.1px 10px var(--black3);
+  z-index: 999;
 }
 nav .logo {
   cursor: pointer;
@@ -68,7 +70,7 @@ nav .logo {
 }
 nav .logo img {
   width: 100px;
-  height: 70px;
+  height: 90px;
 }
 .nav-link {
   display: flex;
