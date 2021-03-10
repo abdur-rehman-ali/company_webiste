@@ -66,6 +66,11 @@ nav .logo {
   text-transform: uppercase;
   color: var(--black);
 }
+nav .logo img
+{
+  width: 100px;
+  height: 70px;
+}
 .nav-link {
   display: flex;
   justify-content: space-around;
@@ -291,8 +296,17 @@ main .main_slogan {
     width: 100%;
   }
   .margin-left {
-    margin-left: 50px;
+    padding-left: 50px;
   }
+  #services,#about,#work,#team_nav
+  {
+    margin-left: 75px;
+  }
+ 
+  /* .margin-right
+  {
+    margin-right: 50px;
+  } */
   .product {
     max-width: 100%;
     min-height: 200px;
@@ -300,7 +314,7 @@ main .main_slogan {
   }
   .product_bar {
     margin-top: 300px;
-    width: 75%;
+    width: 70%;
     margin-bottom: -50px;
   }
 }
