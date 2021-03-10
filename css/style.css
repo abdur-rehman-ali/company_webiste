@@ -168,11 +168,13 @@ main .main_header {
   font-size: 60px;
   text-transform: uppercase;
   margin: 0px auto;
-  color: var(--black2);
+  color: var(--black3);
+  font-family: 'RocknRoll One', sans-serif;
 }
 main .main_slogan {
   font-size: 30px;
-  color: var(--grey2);
+  color: var(--black3);
+  font-family: 'RocknRoll One', sans-serif;
 }
 @media screen and (max-width: 768px) {
   main .main_content {
@@ -187,13 +189,17 @@ main .main_slogan {
 }
 @media screen and (max-width: 468px) {
   main .main_content {
-    margin: -180px 80px 0px;
+    margin: 50px 80px 0px;
   }
   main .main_header {
     font-size: 25px;
   }
   main .main_slogan {
     font-size: 16px;
+  }
+  #services
+  {
+    margin-top: 100px;
   }
 }
 @media screen and (max-width: 400px) {
